@@ -91,7 +91,8 @@ def processCommand(c):
         speak("Opening LinkedIn")
         webbrowser.open("https://linkedin.com")
 
-    # music FIXED HERE
+    
+    # music 
     elif cmd.startswith("play"):
         try:
             song = cmd.split(" ", 1)[1].strip().lower()
