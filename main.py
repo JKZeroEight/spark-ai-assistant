@@ -140,7 +140,7 @@ def processCommand(c):
 
 # MAIN LOOP 
 
-if __name__ == "__main__":
+if __name__ == "__main__":    #dundernames
     speak("Initializing Spark")
 
     while True:
